@@ -1,12 +1,15 @@
 *{
     box-sizing: border-box;
 }
-#navbar {
+.navbarhorizontal {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 #welcome-section{
     height: 100vh
+}
+.footernav{
+    list-style-type: none;
 }
 
