@@ -1,15 +1,12 @@
 *{
     box-sizing: border-box;
 }
-.navbarhorizontal {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+
 #welcome-section{
     height: 100vh
 }
-.footernav{
+li{
     list-style-type: none;
+    text-decoration: none;
+    color: black;
 }
-
