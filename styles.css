@@ -1,6 +1,6 @@
 :root {
     --main-white: #f0f0f0;
-    --main-red: #be3144;
+    --main-red: #d5364c;
     --main-blue: #213055;
     --main-gray: #303841;
   }
@@ -26,6 +26,20 @@
     justify-content: center;
     display: flex;
 }
+.Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 20vh;
+    padding: 0 2rem;
+    background: var(--main-gray);
+}
+.Contact > input{
+    display: inline;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -35,7 +49,16 @@ body {
     color: var(--main-white);
   }
 #projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 20vh;
+    padding: 0 2rem;
     background-color: var(--main-blue);
+    border: #d5364c;
 }
 li{
     list-style-type: none;
@@ -115,14 +138,16 @@ h1{
 .fa-youtube{
     color: white;
 }
+footer > div{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+footer > p {
+    margin: 0.5rem;
+}
 
-footer{
+.seemore{
     display: flex;
     align-items: center;
-    top: 10px;
-    bottom: 10px;
 }
-footer > p > a{
-    display: flex;
-    justify-content: right;
-}  
