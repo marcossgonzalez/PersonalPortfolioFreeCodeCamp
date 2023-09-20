@@ -4,12 +4,14 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" 
+        crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet"/>
         <title>Marcos Gonzalez's Portfolio - FreeCodeCamp</title>
     </head>
     <body>
-        <main>
-            <header>
-                <nav id="navbar">
+        <header>
+                <nav id="navbar" class="nav">
                     <ul class="navbarhorizontal">
                         <li><a href="#welcome-section">About</a></li>
                         <li><a href="#projects">Work</a></li>
@@ -17,6 +19,7 @@
                     </ul>
                 </nav>
             </header>
+            <hr>
             <section id="welcome-section">
                 <h1>Hey, I am Marcos</h1>
                 <h4>I am a full-stack developer</h4>
@@ -45,16 +48,32 @@
                         <button>See more...</button>
                     </ul>   
             </section>
-        </main>
-        <section id="Contact">
-            <footer">
-                <ul class="footernav">
-                    <li class="github"><a href="https://github.com/marcossgonzalez">Github</a></li>
-                    <li class="linkedin"><a id="profile-link" target="_blank" href="https://linkedin.com/in/marcosgonzalezjr">LinkedIn</a></li>
-                    <li class="instagram"><a href="https://instagram.com">Instagram</a></li>
-                    <li class="twitter"><a href="https://twitter.com">Twitter</a></li>
-                </ul>
-            </footer>
+        <section class="Contact">
+            <hr>
+            <h2>Send me an e-mail so we can work together...</h2>
+            <input type="text" name="Name" id="Name" placeholder="Your name here"/>
+            <input type="mailto:marcos.s.gonzalezjr@outlook.com" placeholder="Your e-mail here"/>
+            <input type="button" value="Send">
+        </section>
+        <hr>
+        <section id="ContactLinks">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/freecodecamp"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="https://twitter.com/freecodecamp"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://instagram.com/freecodecamp"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/school/free-code-camp"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="https://www.youtube.com/freecodecamp"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+            </div>
         </section>
     </body>
 </html>
